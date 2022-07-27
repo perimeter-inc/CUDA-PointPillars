@@ -84,3 +84,7 @@ target_link_libraries(${PROJECT_NAME}
     libnvinfer.so
     libnvonnxparser.so
 )
+
+
+# CudaPointPillars Library
+cuda_add_library(CudaPointPillars SHARED ${SOURCE_FILES})
