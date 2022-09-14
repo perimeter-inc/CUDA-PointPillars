@@ -27,8 +27,6 @@
 #include "postprocess.h"
 #include "preprocess.h"
 
-#define PERFORMANCE_LOG 1
-
 // Logger for TensorRT
 class Logger : public nvinfer1::ILogger {
   public:
